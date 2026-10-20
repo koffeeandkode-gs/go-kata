@@ -29,7 +29,7 @@ Requires Go 1.18 or newer. From the repository root, run a completed kata with `
 | Kata | Problem statement |
 | --- | --- |
 | GO-11. The Tiny API Server | Build an HTTP server exposing three REST endpoints. Handle JSON requests, validate inputs, and return appropriate HTTP status codes. |
-| GO-12. Trace the Request | Implement HTTP middleware that generates a unique request ID, propagates it using `context.Context`, and includes it in application logs. |
+| [GO-12. Trace the Request](trace-the-request/) | Implement HTTP middleware that generates a unique request ID, propagates it using `context.Context`, and includes it in application logs. |
 | GO-13. Test It Till It Breaks | Take an existing kata and implement table-driven tests covering normal, edge, and invalid inputs. Add benchmarks and measure test coverage. |
 | GO-14. The Traffic Controller | Implement an in-memory rate limiter allowing at most 5 requests per second per user. Reject excessive requests and ensure concurrency safety. |
 | GO-15. Hunt the Bottleneck | Build a deliberately inefficient data-processing function. Profile it with `pprof`, identify CPU or memory bottlenecks, optimize it, and compare performance. |
